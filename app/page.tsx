@@ -39,6 +39,7 @@ const essentials = [
 
 const PHONE_NUMBER = "071 425 0895";
 const PHONE_LINK = "tel:+94714250895";
+const WHATSAPP_LINK = "https://wa.me/94714250895";
 const MAP_LINK =
   "https://www.google.com/maps/search/?api=1&query=Iresha+Pharmaceuticals+No.+81%2F1+Chilaw+Road+Wennappuwa+Sri+Lanka";
 const EMBED_MAP_LINK =
@@ -71,14 +72,31 @@ export default function Home() {
             <a href="#essentials">Essentials</a>
             <a href="#location">Location</a>
           </nav>
-          <a
-            className="header-directions"
-            href={MAP_LINK}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Directions <span aria-hidden="true">↗</span>
-          </a>
+          <div className="header-actions">
+            <a
+              className="header-whatsapp"
+              href={WHATSAPP_LINK}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Message Iresha Pharmaceuticals on WhatsApp"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20 11.5a8 8 0 0 1-11.8 7L4 20l1.5-4.1A8 8 0 1 1 20 11.5Z" />
+                <path d="M8.2 8.1c.4 3.7 2.1 5.4 5.8 5.8" />
+                <path d="m8.2 8.1 1.3-.7 1.1 2-1.1.8" />
+                <path d="m14 13.9.8-1.1 2 1.1-.7 1.3" />
+              </svg>
+              <span className="header-whatsapp-label">WhatsApp</span>
+            </a>
+            <a
+              className="header-directions"
+              href={MAP_LINK}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Directions <span aria-hidden="true">↗</span>
+            </a>
+          </div>
         </header>
 
         <section className="hero" id="main-content" aria-labelledby="hero-title">
