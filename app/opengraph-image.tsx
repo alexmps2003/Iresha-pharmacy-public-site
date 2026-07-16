@@ -12,42 +12,63 @@ export default function OpenGraphImage() {
         style={{
           width: "100%",
           height: "100%",
+          padding: "72px 82px",
           display: "flex",
           alignItems: "center",
-          background: "linear-gradient(135deg, #fffaf1 0%, #eefafb 100%)",
-          color: "#073b4c",
-          padding: "72px 82px",
+          background: "#063b42",
+          color: "#f8ffff",
           fontFamily: "Arial, sans-serif",
         }}
       >
         <div
           style={{
-            width: 134,
-            height: 134,
-            borderRadius: 32,
+            width: 180,
+            height: 486,
+            marginRight: 58,
             display: "flex",
+            flexDirection: "column",
             alignItems: "center",
             justifyContent: "center",
-            background: "#006d77",
-            color: "white",
-            fontSize: 100,
-            fontWeight: 700,
-            marginRight: 46,
+            border: "4px solid #c5d7d9",
+            borderRadius: 16,
+            color: "#f8ffff",
           }}
         >
-          +
+          <div style={{ display: "flex", fontSize: 78, fontWeight: 800 }}>A3</div>
+          <div
+            style={{
+              width: 88,
+              height: 2,
+              margin: "24px 0",
+              display: "flex",
+              background: "#c5d7d9",
+            }}
+          />
+          <div style={{ display: "flex", fontSize: 78, fontWeight: 700 }}>+</div>
         </div>
+
         <div style={{ display: "flex", flexDirection: "column", flex: 1 }}>
-          <div style={{ display: "flex", fontSize: 64, fontWeight: 700 }}>
+          <div
+            style={{
+              display: "flex",
+              marginBottom: 26,
+              color: "#c5d7d9",
+              fontSize: 25,
+              fontWeight: 700,
+            }}
+          >
+            No. 81/1 · Chilaw Road · Wennappuwa
+          </div>
+          <div style={{ display: "flex", fontSize: 67, fontWeight: 750 }}>
             Iresha Pharmaceuticals
           </div>
           <div
             style={{
               display: "flex",
-              fontSize: 46,
+              marginTop: 30,
+              color: "#f8ffff",
+              fontSize: 44,
               fontWeight: 600,
-              marginTop: 34,
-              color: "#0b5265",
             }}
           >
             Trusted care in Wennappuwa.
@@ -55,12 +76,12 @@ export default function OpenGraphImage() {
           <div
             style={{
               display: "flex",
-              fontSize: 27,
               marginTop: 30,
-              color: "#376775",
+              color: "#c5d7d9",
+              fontSize: 27,
             }}
           >
-            No. 81/1, Chilaw Road · 071 425 0895
+            Call 071 425 0895 before you travel
           </div>
         </div>
       </div>
