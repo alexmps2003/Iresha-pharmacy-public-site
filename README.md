@@ -1,6 +1,6 @@
-# Iresha Pharmacy Public Site
+# Iresha Pharmaceuticals Public Site
 
-The public website for Iresha Pharmacy in Wennappuwa, built with Next.js 16,
+The public website for Iresha Pharmaceuticals in Wennappuwa, built with Next.js 16,
 React 19, TypeScript, and the App Router.
 
 ## Local development
