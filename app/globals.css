@@ -353,14 +353,12 @@ h1 {
   background: var(--brand-dark);
 }
 
-.button-secondary,
 .button-outline {
   border-color: var(--line-strong);
   background: var(--surface);
   color: var(--ink);
 }
 
-.button-secondary:hover,
 .button-outline:hover {
   border-color: var(--brand-dark);
   background: var(--surface-soft);
@@ -441,7 +439,7 @@ h1 {
   margin-top: 12px;
   padding: 12px 14px;
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: auto 1fr;
   gap: 14px;
   align-items: center;
   border: 1px solid var(--footer);
@@ -468,18 +466,6 @@ h1 {
 .road-bar strong {
   display: block;
   font-size: 12px;
-}
-
-.road-bar a {
-  min-height: 44px;
-  padding-inline: 10px;
-  display: inline-flex;
-  align-items: center;
-  color: var(--on-dark);
-  font-size: 12px;
-  font-weight: 800;
-  text-decoration: underline;
-  text-underline-offset: 4px;
 }
 
 .service-rail {
@@ -555,7 +541,6 @@ h1 {
   line-height: 1.6;
 }
 
-.location-panel a,
 .visit-card dd a,
 .footer-links a {
   min-height: 44px;
@@ -628,16 +613,6 @@ h1 {
   color: var(--on-dark-muted);
   font-style: normal;
   line-height: 1.65;
-}
-
-.location-panel a {
-  width: fit-content;
-  gap: 12px;
-  margin-top: 18px;
-  border-bottom: 1px solid var(--on-dark-muted);
-  color: var(--on-dark);
-  font-size: 13px;
-  font-weight: 850;
 }
 
 .essentials-section {
@@ -798,10 +773,6 @@ h1 {
 
 .visit-card dd a {
   padding-inline: 8px;
-}
-
-.visit-card .button {
-  width: 100%;
 }
 
 .footer {
@@ -995,15 +966,6 @@ h1 {
 
   .contact-facts strong {
     text-align: left;
-  }
-
-  .road-bar {
-    grid-template-columns: auto 1fr;
-  }
-
-  .road-bar a {
-    grid-column: 2;
-    padding-inline: 0;
   }
 
   .service-list {

@@ -114,14 +114,6 @@ export default function Home() {
                 <a className="button button-primary" href={PHONE_LINK}>
                   Call the pharmacy
                 </a>
-                <a
-                  className="button button-secondary"
-                  href={MAP_LINK}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Get directions <span aria-hidden="true">↗</span>
-                </a>
               </div>
             </div>
 
@@ -162,9 +154,6 @@ export default function Home() {
                   <p>Find us</p>
                   <strong>No. 81/1 · Chilaw Road · Wennappuwa</strong>
                 </div>
-                <a href={MAP_LINK} target="_blank" rel="noreferrer">
-                  Open map ↗
-                </a>
               </div>
             </aside>
           </div>
@@ -229,9 +218,6 @@ export default function Home() {
                 <br />
                 Wennappuwa, Sri Lanka
               </address>
-              <a href={MAP_LINK} target="_blank" rel="noreferrer">
-                Open directions <span aria-hidden="true">↗</span>
-              </a>
             </div>
           </div>
         </section>
@@ -313,14 +299,6 @@ export default function Home() {
                 <dd>Confirm before visiting</dd>
               </div>
             </dl>
-            <a
-              className="button button-primary"
-              href={MAP_LINK}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Get directions <span aria-hidden="true">↗</span>
-            </a>
           </article>
         </section>
 
@@ -345,9 +323,6 @@ export default function Home() {
               <a href="#services">Services</a>
               <a href="#essentials">Essentials</a>
               <a href="#location">Location</a>
-              <a href={MAP_LINK} target="_blank" rel="noreferrer">
-                Directions ↗
-              </a>
             </nav>
           </div>
           <div className="shell footer-bottom">
