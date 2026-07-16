@@ -7,8 +7,8 @@ export async function generateMetadata(): Promise<Metadata> {
   const host = requestHeaders.get("x-forwarded-host") ?? requestHeaders.get("host") ?? "localhost:3000";
   const protocol = requestHeaders.get("x-forwarded-proto") ?? (host.includes("localhost") || host.startsWith("127.") ? "http" : "https");
   const origin = `${protocol}://${host}`;
-  const title = "Harbor Health Pharmacy | Care that feels close to home";
-  const description = "Prescriptions, everyday wellness, vaccinations, and trusted pharmacist advice from your neighborhood pharmacy.";
+  const title = "Iresha Pharmacy | Puttalam Road, Wennappuwa";
+  const description = "Iresha Pharmacy in Wennappuwa for prescription medicines and everyday pharmacy essentials. Call 077 118 4083 to check availability and opening hours.";
 
   return {
     metadataBase: new URL(origin),
@@ -19,8 +19,8 @@ export async function generateMetadata(): Promise<Metadata> {
       description,
       type: "website",
       url: origin,
-      siteName: "Harbor Health Pharmacy",
-      images: [{ url: `${origin}/og.png`, width: 1200, height: 630, alt: "Harbor Health Pharmacy — Care that feels close to home." }],
+      siteName: "Iresha Pharmacy",
+      images: [{ url: `${origin}/og.png`, width: 1200, height: 630, alt: "Iresha Pharmacy — trusted care in Wennappuwa." }],
     },
     twitter: { card: "summary_large_image", title, description, images: [`${origin}/og.png`] },
   };
