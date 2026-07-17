@@ -41,9 +41,13 @@ const PHONE_NUMBER = "071 425 0895";
 const PHONE_LINK = "tel:+94714250895";
 const WHATSAPP_LINK = "https://wa.me/94714250895";
 const MAP_LINK =
-  "https://www.google.com/maps/search/?api=1&query=Iresha+Pharmaceuticals+No.+81%2F1+Chilaw+Road+Wennappuwa+Sri+Lanka";
+  "https://www.google.com/maps/dir/?api=1&destination=7.3422595%2C79.8416314";
 const EMBED_MAP_LINK =
-  "https://www.google.com/maps?q=Iresha+Pharmaceuticals%2C+No.+81%2F1+Chilaw+Road%2C+Wennappuwa%2C+Sri+Lanka&output=embed";
+  "https://www.google.com/maps/embed?pb=" +
+  "!1m18!1m12!1m3!1d3957.1036218349514!2d79.8416314!3d7.3422595" +
+  "!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2" +
+  "!1s0x3ae2c2179a595b7d%3A0x6aacfa566d2967f3!2sIresha%20Pharmaceuticals" +
+  "!5e1!3m2!1sen!2slk!4v1720000000000!5m2!1sen!2slk";
 
 export default function Home() {
   return (
